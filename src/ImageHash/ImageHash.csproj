@@ -23,6 +23,7 @@
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <NeutralLanguage>en</NeutralLanguage>
     <PackageDescription>$(Description)</PackageDescription> 
+    <Configuration>Release</Configuration>
     <!--
     <PackageReleaseNotes>
       1.0.0-beta0005

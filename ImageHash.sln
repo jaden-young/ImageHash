@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		GitVersion.yml = GitVersion.yml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bench", "bench", "{554E8FC3-94F6-4FB6-95E6-9BB1E738223F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageHash.Bench", "bench\ImageHash.Bench\ImageHash.Bench.csproj", "{42A621EE-4AD8-44E7-AFC5-6F7D3AC35CD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,11 +39,18 @@ Global
 		{6051F2DC-913C-4E55-BC94-5AC6FFCC38B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6051F2DC-913C-4E55-BC94-5AC6FFCC38B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6051F2DC-913C-4E55-BC94-5AC6FFCC38B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A621EE-4AD8-44E7-AFC5-6F7D3AC35CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A621EE-4AD8-44E7-AFC5-6F7D3AC35CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A621EE-4AD8-44E7-AFC5-6F7D3AC35CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A621EE-4AD8-44E7-AFC5-6F7D3AC35CD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A652A24-5232-438B-8750-FC68F6E36BCC}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42A621EE-4AD8-44E7-AFC5-6F7D3AC35CD1} = {554E8FC3-94F6-4FB6-95E6-9BB1E738223F}
 	EndGlobalSection
 EndGlobal
